@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка сайта */
+.header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #005BFF;
+  font-weight: 500;
+}
+
+/* Главный баннер */
+.hero {
+  background: url('hero.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+/* Преимущества */
+.advantages {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.advantages h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.advantages-list li {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Программы обучения */
+.programs {
+  padding: 60px 0;
+}
+
+.programs h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.programs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.program-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
